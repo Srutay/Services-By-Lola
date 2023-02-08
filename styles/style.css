@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255,255,255);
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+.head img{
+    height: 50px;
+}
+
+button{
+    background-color: rgb(89,85,179);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+button:active{
+    background-color: rgb(60,46,96);
+    color: white;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    margin-right: 770px;
+    margin-top: 15px;
+    margin-left: 60px;
+ }
+
+ .menu ul li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+     font-size: 15px;
+     font-weight: 600;
+ }
+ .menu ul li a:hover{
+     color: rgb(89,85,179);
+ }
+
+ .btn{
+     position: relative;
+     right: 170px;
+ }
+
+ .btn button{
+     height: 40px;
+     width: 110px;
+     position: relative;
+ }
+ .hero{
+     display: flex;
+
+ }
+
+ .right img{
+     display: flex;
+     position: relative;
+     height: 570px;
+     width: 730px;
+     padding-right: 30px;
+     top: 40px;
+     right: 100px;
+    
+ }
+
+
+ .left{
+     display: flex;
+     flex-direction: column;
+     padding-top: 90px;
+     width: 800px;
+
+
+ }
+ .sen1{
+   font-size: 55px;
+   letter-spacing: 1px;
+   font-weight: 1000;
+  line-height: 1.2;
+  color: rgb(60,46,96);
+ }
+span{
+    color: rgb(89,85,179);
+}
+ .sen2{
+     font-size:20px;
+     width: 700px;
+     position: relative;
+     margin-top: 20px;
+     word-spacing: 1px;
+     font-size: 14px;
+     color: rgb(134, 133, 133);
+ }
+
+.btn2 button{
+    position: relative;
+    margin-top: 60px;
+    height: 40px;
+    width: 160px;
+}
+ 
